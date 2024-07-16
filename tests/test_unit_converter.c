@@ -11,6 +11,7 @@ void test_celsius_to_fahrenheit() {
 }
 
 void test_fahrenheit_to_celsius() {
+  assert(fabs(fahrenheit_to_celsius(0)+(32.0/5.0*9.0)<EPSILON));
   printf("All fahrenheit_to_celsius tests passed!\n");
 }
 
