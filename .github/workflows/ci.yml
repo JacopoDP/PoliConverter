@@ -21,4 +21,4 @@ jobs:
               run: cmake --build build
             
             - name: Run test
-              run: ctest --test-dir tests
+              run: ./build/test_unit_converter.exe
